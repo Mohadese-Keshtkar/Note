@@ -11,6 +11,7 @@ function addNote() {
   let obj = {
     title: title,
     note: textarea,
+    date: new Date().toLocaleDateString(), //Adding date to the object
   };
 
   let notesArr = getDate();
@@ -50,6 +51,7 @@ function printData(callBack) {
         <h2>${item.title}</h2>
         <p>${item.note}</p>
         <button id=${index} onclick="deleteData(this.id)">Delete</button>
+        <div>${item.date}</div>
         `;
 
     cards.appendChild(card);
