@@ -1,5 +1,5 @@
 :root {
-  --blueb: #7977ca;
+  --blueb: #6867b6;
   --black: black;
   --ligheblue: #f0aecd;
 }
@@ -19,7 +19,7 @@
 main {
   max-width: 1000px;
   margin: auto;
-  padding: 0 1em;
+  padding: 0 7em;
 }
 
 main form {
@@ -30,7 +30,7 @@ main form {
 
 form input,
 textarea {
-  padding: 1.2em;
+  padding: 1.3em;
   font-size: 16px;
   color: var(--black);
   background-color: var(--ligheblue);
